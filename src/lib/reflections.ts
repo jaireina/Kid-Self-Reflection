@@ -205,11 +205,87 @@ export const reflections: Reflection[] = [
       },
       {
         id: "q8",
+        title: "Mistakes, Practice, and Learning",
+        emoji: "📚",
+        sections: [
+          {
+            id: "q8s1",
+            prompt: "When I started my math exercises:",
+            type: "single",
+            options: [
+              { id: "a", label: "I was focused", emoji: "⭕" },
+              { id: "b", label: "I was a little focused", emoji: "⭕" },
+              { id: "c", label: "I was NOT focused", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s2",
+            prompt: "When I made mistakes, it was mostly because:",
+            type: "single",
+            options: [
+              { id: "a", label: "I did not understand yet", emoji: "⭕" },
+              { id: "b", label: "I was not paying attention", emoji: "⭕" },
+              { id: "c", label: "Both", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s3",
+            prompt: "What happened when I made a mistake?",
+            type: "single",
+            options: [
+              { id: "a", label: "I tried again", emoji: "⭕" },
+              { id: "b", label: "I needed help", emoji: "⭕" },
+              { id: "c", label: "I had to do an extra exercise", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s4",
+            prompt: "Why did I have to do extra exercises? (circle one)",
+            type: "single",
+            options: [
+              { id: "a", label: "To punish me", emoji: "⭕" },
+              { id: "b", label: "To help me practice and learn", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s5",
+            prompt:
+              'Important Learning - Finish the sentence: "If I am not focused, I need more practice."',
+            type: "single",
+            options: [
+              { id: "a", label: "True", emoji: "⭕" },
+              { id: "b", label: "False", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s6",
+            prompt:
+              "The Result - How many exercises did I do before I got one right by myself?",
+            type: "single",
+            options: [
+              { id: "a", label: "1", emoji: "⭕" },
+              { id: "b", label: "3", emoji: "⭕" },
+              { id: "c", label: "6", emoji: "⭕" },
+            ],
+          },
+          {
+            id: "q8s7",
+            prompt: "Did I finally do one by myself?",
+            type: "single",
+            options: [
+              { id: "a", label: "Yes", emoji: "⭕" },
+              { id: "b", label: "No", emoji: "⭕" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "q9",
         title: "My Promise for Tomorrow",
         emoji: "⭐",
         sections: [
           {
-            id: "q8s1",
+            id: "q9s1",
             prompt: "My promise:",
             type: "single",
             options: [
