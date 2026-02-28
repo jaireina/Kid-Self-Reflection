@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fef7f5;
+  --foreground: #5c4a47;
+  --pastel-pink: #ffd6e0;
+  --pastel-mint: #c8f0e8;
+  --pastel-lavender: #e8e0ff;
+  --pastel-peach: #ffe4d4;
+  --pastel-sky: #d4edff;
+  --pastel-yellow: #fff9d4;
 }
 
 @theme inline {
@@ -12,15 +18,19 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), "Comic Sans MS", "Chalkboard SE", sans-serif;
+}
+
+/* Kid-friendly rounded corners and soft shadows */
+.card-soft {
+  box-shadow: 0 4px 20px rgba(92, 74, 71, 0.08);
+}
+
+/* Fun hover effect for cards */
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(92, 74, 71, 0.12);
 }
