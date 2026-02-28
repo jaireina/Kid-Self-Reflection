@@ -223,48 +223,4 @@ export const reflections: Reflection[] = [
       },
     ],
   },
-  {
-    id: "evening",
-    title: "My Evening Reflection",
-    emoji: "🌙",
-    description: "How did your day go? Let's think about it together!",
-    questions: [
-      {
-        id: "e1",
-        title: "Today's Highlights",
-        emoji: "✨",
-        sections: [
-          {
-            id: "e1s1",
-            prompt: "What was the best part of my day?",
-            type: "text",
-            placeholder: "Tell me about it...",
-          },
-          {
-            id: "e1s2",
-            prompt: "What made me smile today?",
-            type: "text",
-            placeholder: "Share your happy moment...",
-          },
-        ],
-      },
-      {
-        id: "e2",
-        title: "Learning & Growing",
-        emoji: "📚",
-        sections: [
-          {
-            id: "e2s1",
-            prompt: "Something new I learned today:",
-            type: "single",
-            options: [
-              { id: "a", label: "Yes, I learned something!", emoji: "✅" },
-              { id: "b", label: "A little bit", emoji: "🤔" },
-              { id: "c", label: "Not really", emoji: "😊" },
-            ],
-          },
-        ],
-      },
-    ],
-  },
 ];
